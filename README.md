@@ -9,15 +9,18 @@ from quadratic_equation import get_roots
 
 Использовать функцию так:
 
-root1, root2 = get_roots(a, b, c),
+```python
+root1, root2 = get_roots(a, b, c)
+```
 
 где a, b, c - соответствующие аргументы квадратнгого уровнения.
 
 например:
+```python
 from quadratic_equation import get_roots
 root1, root2 = get_roots(1, -2, 1)
 print (root1, root2)
-
+```
 # Как запустить
 
 Скрипт требует для своей работы установленного интерпретатора Python версии 3.5
